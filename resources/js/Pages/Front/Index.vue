@@ -51,12 +51,12 @@ const props = defineProps({
 
 
 <template>
-    <Head title="Welcome" />
+    <Head title="Profile" />
     <nav class="bg-white">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
                 <img src="img/logo.png" class="h-8 mr-3" alt=" Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Profile</span>
             </a>
             <div class="flex md:order-2">
                 <div v-if="canLogin">
@@ -144,7 +144,7 @@ const props = defineProps({
                 <p class="pt-6 font-body leading-relaxed text-grey-20">{{ about.konten }}</p>
                 <div class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
                     <div class="flex items-center justify-center sm:justify-start">
-                        <a href="https://www.instagram.com/mujiyantosvc/"
+                        <a href="https://www.instagram.com/qotrun.nn/"
                             class="font-body text-lg font-semibold uppercase text-grey-20"> Connect with me </a>
                         <div class="hidden sm:block">
                             <i class="bx bx-chevron-right text-2xl text-primary"></i>
@@ -191,7 +191,7 @@ const props = defineProps({
                     </div>
                     <div className="text-sm text-gray-600">
                         <img src="img/logo.png" class="h-8 mr-3" alt=" Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Profile</span>
                     </div>
                 </div>
                 <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
